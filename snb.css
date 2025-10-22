@@ -3,7 +3,7 @@
     padding:0%;
 }
 body{
-    background-image: url('./images/Snake\'n\'ball\ bgimg.jpg');
+    background-image: url('./images/Snake'n'ball bgimg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -61,4 +61,5 @@ color:#df9321;
     justify-content: space-between;
     color: aquamarine;
 }
+
 
