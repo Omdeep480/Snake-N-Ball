@@ -3,7 +3,7 @@
     padding:0%;
 }
 body{
-    background-image: url('./images/Snake'n'ball bgimg.jpg');
+    background-image: url('images/Snake'n'ball bgimg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -35,19 +35,19 @@ color:#df9321;
     width:600px;
 }
 .playboard .food{
-    background: url(./images/Ball-PNG-HD-Image.png);
+    background: url(images/Ball-PNG-HD-Image.png);
      background-size: 100% 100%;
     height: 100%;
     width: 100%;
 }
 .playboard .head{
-    background: url(./images/snakehead.png);
+    background: url(images/snakehead.png);
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
 }
 .playboard .body{
-    background: url(./images/body.png);
+    background: url(images/body.png);
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
@@ -61,5 +61,6 @@ color:#df9321;
     justify-content: space-between;
     color: aquamarine;
 }
+
 
 
