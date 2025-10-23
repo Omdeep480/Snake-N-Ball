@@ -6,7 +6,7 @@ body{
     background-image: url('images/Snake\'n\'ball\ bgimg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top;
+    /* background-position: top; */
     position: relative;
     
 }
@@ -90,4 +90,5 @@ color:#df9321;
     background-color: black;
     color: #df9321;
     font-size: xx-large;
+
 }
