@@ -61,3 +61,33 @@ color:#df9321;
     justify-content: space-between;
     color: aquamarine;
 }
+.controls{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+#left{
+    background-color: black;
+    color: #df9321;
+
+    font-size: xx-large;
+}
+#right{
+
+    background-color: black;
+    color: #df9321;
+    font-size: xx-large;
+}
+#up{
+
+    background-color: black;
+    color: #df9321;
+    font-size: xx-large;
+}
+#down{
+
+    background-color: black;
+    color: #df9321;
+    font-size: xx-large;
+}

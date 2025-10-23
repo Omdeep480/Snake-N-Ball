@@ -1,6 +1,10 @@
 const playboard=document.querySelector(".playboard");
 const scr=document.querySelector("#scr");
 const hscr=document.querySelector("#hscr");
+const left=document.querySelector("#left");
+const right=document.querySelector("#right");
+const up=document.querySelector("#up");
+const down=document.querySelector("#down");
 let foodX;
 let foodY;
 let snakeX=7;
@@ -101,4 +105,19 @@ setIntervalid=setInterval(initGame,175);
 
 document.addEventListener("keydown",changedirection);
 
+left.addEventListener('click',() =>{
+  changedirection({ key: "ArrowLeft" });
+});
+
+right.addEventListener('click',() =>{
+  changedirection({ key: "ArrowRight" });
+});
+
+up.addEventListener('click',() =>{
+  changedirection({ key: "ArrowUp" });
+});
+
+down.addEventListener('click',() =>{
+  changedirection({ key: "ArrowDown" });
+});
 
